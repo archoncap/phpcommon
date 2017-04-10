@@ -1,5 +1,5 @@
 <?php
-class DBO
+class Model
 {
     protected $db;
     protected $field;
