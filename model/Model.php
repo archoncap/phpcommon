@@ -124,7 +124,7 @@ class Model
         return $this;
     }
     public function delete($where){
-        return $this->db->delete($this->table);
+        return $this->db->where($where)->delete($this->table);
     }
     public function remove(){
         return $this->delete($this->table);
